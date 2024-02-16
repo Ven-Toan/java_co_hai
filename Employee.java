@@ -10,14 +10,7 @@ package test;
  */
 
 import java.time.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Objects;
-import java.util.Scanner;
 
 /**
  *
@@ -57,6 +50,7 @@ class Employee
       salary += raise;
    }
 
+   @Override
    public String toString()
    {
       return getClass().getName() + "[Name = " + name + ",salary = " + salary + ",hireDay = " + hireDay
@@ -73,6 +67,7 @@ class Employee
       bonus = 0;
    }
 
+   @Override
    public double getSalary()
    {
       double baseSalary = super.getSalary();
@@ -84,6 +79,7 @@ class Employee
       this.bonus = bonus;
    }
 
+   @Override
    public String toString()
    {
       return super.toString() + "[bonus=" + bonus + "]";
