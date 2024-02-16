@@ -6,5 +6,6 @@ Repository (Repo)
 
 git init
 git status
-git add
+git add (chuẩn bị lưugi)
 git reset
+git commit (lưu chính thức)
