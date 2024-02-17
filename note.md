@@ -2,7 +2,9 @@
 
 Repository (Repo)
 
-Branch
+Branch (nhánh)
+
+Conflict (xung đột)
 
 #Command (lệnh)
 
