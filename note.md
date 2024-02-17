@@ -17,3 +17,4 @@ git checkout + id(quay lại chỗ commit)
 git checkout + {branch-name} (quay lại chỗ hiện tại)
 git branch (xem nhánh)
 git checkout -b {branch name} (tạo nhánh mới)
+git merge {tên branch muốn gộp vào}
