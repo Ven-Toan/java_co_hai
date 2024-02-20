@@ -1,3 +1,4 @@
+
 #Terms (danh từ)
 
 Repository (Repo)
@@ -28,3 +29,8 @@ git checkout -b {branch name} (tạo nhánh mới)
 git merge {tên branch muốn gộp vào}
 git branch -d {branch name} (xoá 1 nhánh)
 git push
+git remote add origin {repo url} (đặt tên cho url)
+git push origin {branch name}
+git clone {repo url}
+git fetch origin
+git checkout -b {branch name} origin/{branch name} tạo nhánh giống trên github
