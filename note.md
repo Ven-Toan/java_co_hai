@@ -6,6 +6,11 @@ Branch (nhánh)
 
 Conflict (xung đột)
 
+Local
+
+Remote
+
+
 #Command (lệnh)
 
 git init
@@ -22,3 +27,4 @@ git checkout {tên branch} (chọn nhánh)
 git checkout -b {branch name} (tạo nhánh mới)
 git merge {tên branch muốn gộp vào}
 git branch -d {branch name} (xoá 1 nhánh)
+git push
